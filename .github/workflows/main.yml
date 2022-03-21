@@ -42,3 +42,5 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: ${{ secrets.DOCKER_HUB_USERNAME }}/devops_ci_cd:latest
+          cache-from: type=registry,ref=${{ secrets.DOCKER_HUB_USERNAME }}/devops_ci_cd:buildcache
+          cache-to: type=registry,ref=${{ secrets.DOCKER_HUB_USERNAME }}/devops_ci_cd:buildcache,mode=max
