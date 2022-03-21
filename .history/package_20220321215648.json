@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "author": "xenacode-art",
+  "author": "xenacode-art / Ac ",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
